@@ -883,3 +883,35 @@ nav .input-field label.active i {
 }
 
 @import "dark";
+
+span.category-name {
+    color:#203243;
+}
+
+/* Make emojis normal size (don't force square) */
+
+div.topic-post img.emoji[src*="uploads"] { /* All posts */
+  width: auto;
+  height: auto;
+}
+
+div.d-editor-preview img.emoji[src*="uploads"] { /* Editor preview box */
+  width: auto;
+  height: auto;
+}
+
+div.emoji-modal img.emoji[src*="uploads"] { /* Emoji chooser popup */
+  height: auto;
+}
+
+div.d-editor-textarea-wrapper img.emoji[src*="uploads"] { /* Autocomplete in editor */
+  width: auto;
+}
+
+div.title-wrapper img.emoji[src*="uploads"] { /* Post titles */
+    width: auto;
+}
+
+td.main-link img.emoji[src*="uploads"] { /* Post titles in menus */
+    width: auto;
+}
