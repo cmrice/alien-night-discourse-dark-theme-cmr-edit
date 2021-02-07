@@ -911,3 +911,7 @@ div.title-wrapper img.emoji[src*="uploads"] { /* Post titles */
 td.main-link img.emoji[src*="uploads"] { /* Post titles in menus */
     width: auto;
 }
+
+div.reply-details img.emoji[src*="uploads"] { /* Compose window title box */
+    width: auto;
+}
